@@ -11,10 +11,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  background-color: #000;
-
+  background-color: #fff;
   font: normal 100%/1.5 sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
@@ -30,8 +29,14 @@ animaiton-iteration-count (number or infinate)
 animaiton-direction (normal, reverse, alternate)
 */
 
-.banner {
+.nav {
 
+}
+
+.banner {
+    background-color: #485265;
+    
+    
 }
 
 .pieces {
@@ -39,5 +44,6 @@ animaiton-direction (normal, reverse, alternate)
 }
 
 .about {
+    background-color: #485265;
 
 }
