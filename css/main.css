@@ -13,12 +13,17 @@ html {
   text-size-adjust: 100%;
   background-color: #fff;
   font: normal 100%/1.5 sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; 
   color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -29,14 +34,23 @@ animaiton-iteration-count (number or infinate)
 animaiton-direction (normal, reverse, alternate)
 */
 
+
 .nav {
 
 }
 
 .banner {
-    background-color: #485265;
-    
-    
+    background-color: #252B3F;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+h1, h2 {
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
 }
 
 .pieces {
@@ -44,6 +58,6 @@ animaiton-direction (normal, reverse, alternate)
 }
 
 .about {
-    background-color: #485265;
+    background-color: #F27678;
 
 }
