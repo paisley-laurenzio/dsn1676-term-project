@@ -43,8 +43,47 @@ animaiton-direction (normal, reverse, alternate)
     background-color: #252B3F;
     margin: 0 auto;
     text-align: center;
-    position: relative;
     overflow: hidden;
+}
+
+.dots-1 {
+    position: absolute;
+    width: 100px;
+    left: 50px;
+    top: 50px;
+}
+
+.dots-2 {
+    position: absolute;
+    width: 100px;
+    left: 250px;
+    top: 50px;
+}
+
+.dots-3{
+    position: absolute;
+    width: 100px;
+    left: 450px;
+    top: 50px;
+}
+
+.dots-4 {
+    position: relative;
+    top: 50px;
+    animation: spin 7s ease linear;
+}
+
+.dots-5 {
+    position: relative;
+    top: 50px;
+    animation: spin 7s ease linear;
+}
+
+.dots-6 {
+    position: relative;
+    top: 50px;
+    -webkit-animation: navy-dots-spin 7s ease linear;
+    animation: dots-6-spin 7s ease linear;
 }
 
 h1, h2 {
@@ -60,4 +99,17 @@ h1, h2 {
 .about {
     background-color: #F27678;
 
+}
+
+@-webkit-keyframes navy-dots-spin {
+
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+
+@keyframes navy-dots-spin {
+
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
