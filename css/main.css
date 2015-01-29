@@ -43,56 +43,99 @@ animaiton-direction (normal, reverse, alternate)
     background-color: #252B3F;
     margin: 0 auto;
     text-align: center;
-    overflow: hidden;
+}
+
+.all {
+    position: relative;
+    max-width: 40em;
+    margin:0 auto; 
+    height: 36vw;
+    max-height: 250px;
+    padding-top: 3em;
 }
 
 .dots-1 {
-    position: absolute;
-    width: 100px;
-    left: 50px;
-    top: 50px;
+    position: relative;
 }
 
 .dots-2 {
+    position: relative;
+}
+
+.dots-3 {
+    position: relative;
+}
+
+.dots-1 img {
     position: absolute;
-    width: 100px;
-    left: 250px;
-    top: 50px;
+    width: 80%;
+    left: 10%;
+    top: 0;
 }
 
-.dots-3{
+.dots-2 img {
     position: absolute;
-    width: 100px;
-    left: 450px;
-    top: 50px;
+    width: 80%;
+    left: 10%;
+    top: 0;
 }
 
-.dots-4 {
-    position: relative;
-    top: 50px;
-    animation: spin 7s ease linear;
+.dots-3 img{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 0;
 }
 
-.dots-5 {
-    position: relative;
-    top: 50px;
-    animation: spin 7s ease linear;
+img.frame-1 {
+     -webkit-animation: spin 2s ease linear;
+    animation: spin 2s linear; 
 }
 
-.dots-6 {
-    position: relative;
-    top: 50px;
-    -webkit-animation: navy-dots-spin 7s ease linear;
-    animation: dots-6-spin 7s ease linear;
+img.pic-1 {
+-webkit-animation: fade 1s 2s ease linear;
+    animation: fade 1s 2s linear forwards; 
 }
+
+img.frame-2 {
+     -webkit-animation: spin 2s 3s ease linear;
+    animation: spin 2s 3s linear; 
+}
+
+img.pic-2 {
+-webkit-animation: fade 1s ease linear;
+    animation: fade 1s 5s linear forwards; 
+}
+
+img.frame-3 {
+     -webkit-animation: spin 2s 6s ease linear;
+    animation: spin 2s 6s linear; 
+}
+
+img.pic-3 {
+-webkit-animation: fade 1s 8s ease linear;
+    animation: fade 1s 8s linear forwards; 
+}
+
+.name{
+    padding-top: 2em;
+}
+
 
 h1, h2 {
     font-weight: 100;
     margin: 0;
     padding: 0;
+    transition: color 500ms ease-in-out;
+}
+
+h1:hover{
+color: #68C5B4;
+    font-size: 2.5em;
 }
 
 .pieces {
+     
 
 }
 
@@ -101,15 +144,24 @@ h1, h2 {
 
 }
 
-@-webkit-keyframes navy-dots-spin {
+@-webkit-keyframes spin {
 
     0% {-webkit-transform: rotate(0deg);}
     100% {-webkit-transform: rotate(360deg);}
 }
 
 
-@keyframes navy-dots-spin {
-
-    0% {transform: rotate(0deg);}
+@keyframes spin {
+     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fade {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
