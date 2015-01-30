@@ -117,11 +117,6 @@ img.pic-3 {
     animation: fade 1s 8s linear forwards; 
 }
 
-.name{
-    padding-top: 2em;
-}
-
-
 h1, h2 {
     font-weight: 100;
     margin: 0;
@@ -129,23 +124,40 @@ h1, h2 {
     transition: color 500ms ease-in-out;
 }
 
-h1:hover{
-color: #68C5B4;
-    font-size: 2.5em;
+.name{
+    padding-top: 2em;
 }
+
+h1:hover {
+    color: #68C5B4;
+    font-size: 2em;
+}
+#A_hidden {
+	display: none;
+}
+
+#A:hover #A_hidden {
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
 
 .pieces {
      
-
 }
 
 .about {
-    background-color: #F27678;
-
+    xbackground-color: #F27678;
 }
 
-@-webkit-keyframes spin {
 
+@-webkit-keyframes spin {
     0% {-webkit-transform: rotate(0deg);}
     100% {-webkit-transform: rotate(360deg);}
 }
@@ -165,3 +177,4 @@ color: #68C5B4;
     0% {opacity: 1;}
     100% {opacity: 0;}
 }
+
