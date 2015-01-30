@@ -139,7 +139,6 @@ h1:hover {
 #A:hover #A_hidden {
     display: block;
     margin: 0 auto;
-    transition: fade 500ms ease;
 }
 
 .button {
