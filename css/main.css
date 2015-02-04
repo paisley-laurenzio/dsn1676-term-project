@@ -26,17 +26,7 @@ body {
     padding: 0;
 }
 
-/*
-animation-name
-animation-duration
-animaiton-timing-function (linear, ease-in-out...)
-animaiton-iteration-count (number or infinate)
-animaiton-direction (normal, reverse, alternate)
-*/
-
-
 .nav {
-
 }
 
 .banner {
@@ -132,6 +122,7 @@ h1:hover {
     color: #68C5B4;
     font-size: 2em;
 }
+
 #A_hidden {
 	display: none;
 }
@@ -164,7 +155,7 @@ h1:hover {
 
 
 @keyframes spin {
-     0% {transform: rotate(0deg);}
+    0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
 
