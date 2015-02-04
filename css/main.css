@@ -88,32 +88,32 @@ animaiton-direction (normal, reverse, alternate)
 }
 
 img.frame-1 {
-    -webkit-animation: spin 2s ease linear;
+    -webkit-animation: spin 2s linear;
     animation: spin 2s linear; 
 }
 
 img.pic-1 {
--webkit-animation: fade 1s 2s ease linear;
+    -webkit-animation: fade 1s 2s linear forwards;
     animation: fade 1s 2s linear forwards; 
 }
 
 img.frame-2 {
-    -webkit-animation: spin 2s 3s ease linear;
+    -webkit-animation: spin 2s 3s linear;
     animation: spin 2s 3s linear; 
 }
 
 img.pic-2 {
-    -webkit-animation: fade 1s ease linear;
+    -webkit-animation: fade 1s 5s linear forwards;
     animation: fade 1s 5s linear forwards; 
 }
 
 img.frame-3 {
-    -webkit-animation: spin 2s 6s ease linear;
+    -webkit-animation: spin 2s 6s linear;
     animation: spin 2s 6s linear; 
 }
 
 img.pic-3 {
-    -webkit-animation: fade 1s 8s ease linear;
+    -webkit-animation: fade 1s 8s linear forwards;
     animation: fade 1s 8s linear forwards; 
 }
 
