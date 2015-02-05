@@ -108,7 +108,7 @@ img.pic-3 {
 }
 
 h1, h2 {
-    font-weight: 100;
+    font-weight: 200;
     margin: 0;
     padding: 0;
     transition: color 500ms ease-in-out;
@@ -116,6 +116,16 @@ h1, h2 {
 
 .name{
     padding-top: 2em;
+    height: 8em;
+    transition: all 400ms ease-in-out;
+}
+
+.name:hover{
+    height: 13.5em;
+}
+
+h2:hover {
+    color: #68C5B4;
 }
 
 h1:hover {
@@ -123,12 +133,8 @@ h1:hover {
     font-size: 2em;
 }
 
-#A_hidden {
-	display: none;
-}
-
-#A:hover #A_hidden {
-    display: block;
+.name:hover .button {
+    opacity: 1;
     margin: 0 auto;
 }
 
@@ -136,6 +142,8 @@ h1:hover {
     width: 50px;
     padding-top: 5px;
     padding-bottom: 15px;
+    opacity:0;
+    transition: opacity 500ms ease-in-out;
 }
 
 
