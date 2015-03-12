@@ -10,8 +10,21 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header class="nav">
-    
+    <header role="banner" class="masthead grid navbackground" id="top">
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unitl-1-2 gutter-1-2 navnottran">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="youplan logo" class="logo">
+            </a>
+        </div>
+        <div class=" navwrapper unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unitl-1-2 navnottran" id="nav">
+            <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+            <nav role="navigation" class="nav nav-top" data-state="collapsed">
+                <ul>
+                    <li><a class="gutter" href="index.html">Portfolio</a></li>
+                    <li><a class="gutter" href="pricing.html">About</a></li>
+                </ul>    
+            </nav>
+        </div>
     </header>
         <div class="banner">
             <div class="grid all">
@@ -62,4 +75,5 @@
         </div>
     </div>
 </body>
+<script src="main.js"></script>
 </html>

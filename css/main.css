@@ -29,6 +29,93 @@ body {
 .nav {
 }
 
+.navbackground {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.navbackground2{
+    background-color: rgb(239, 239, 239); 
+}
+
+.navwrapper{
+    position: relative;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	bottom: 14.5px;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	width: 46px;
+	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
+	text-indent: 100%;
+	white-space: nowrap; 
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #3F3F3F;
+	background-position: 0 -40px;
+}
+
+.nav-btn[data-state="active"] {
+	background-color: #3F3F3F;
+	background-position: -46px -40px;
+}
+
+.nav {
+	background-color: #3F3F3F;
+    overflow: hidden;
+    position: absolute;
+    right: .62em;
+    width: 10em;
+    top: 48px;
+    z-index: 100;
+}
+
+.nav > ul {
+	margin: 0;
+	padding: 0.8em 0;
+	list-style-type: none;
+	font-size: 1.25em;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 0.5em 10px;
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #9b9b9b;
+	color: #fff;
+}
+
+.nav-top {
+	max-height: 0;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 14em;
+}
+
+.masthead { 
+    height: 50px;
+}
+
 .banner {
     background-color: #252B3F;
     margin: 0 auto;
