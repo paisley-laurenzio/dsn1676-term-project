@@ -143,12 +143,39 @@ body {
     position: relative;
 }
 
+.pic-1b {
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.dots-1:hover .pic-1b {
+    opacity: 1;
+}
+
 .dots-2 {
     position: relative;
 }
 
+.pic-2b {
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.dots-2:hover .pic-2b {
+    opacity: 1;
+}
+
 .dots-3 {
     position: relative;
+}
+
+.pic-3b {
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.dots-3:hover .pic-3b {
+    opacity: 1;
 }
 
 .dots-1 img {
@@ -238,6 +265,9 @@ h1:hover {
     transition: opacity 500ms ease-in-out;
 }
 
+.work-1{
+    width: 100%;
+}
 
 .pieces {
      
