@@ -12,4 +12,5 @@ document.querySelector('.nav-btn').addEventListener('click', function (e) {
     navTop.setAttribute('data-state', 'expanded');
     this.setAttribute('data-state', 'active');
   }
+    console.log('clicked');
 });

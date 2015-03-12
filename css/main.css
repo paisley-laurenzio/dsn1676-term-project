@@ -26,11 +26,14 @@ body {
     padding: 0;
 }
 
-.nav {
+.logo {
+    width: 10em;
+    max-height: 5em;
+    float: left;
 }
 
 .navbackground {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: #252B3F;
 }
 
 .navbackground2{
@@ -44,13 +47,13 @@ body {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	bottom: 14.5px;
-	height: 40px;
+	bottom: 25px;
+	height: 36px;
 	overflow: hidden;
 	position: absolute;
 	right: 10px;
-	width: 46px;
-	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
+	width: 36px;
+	background: transparent url("../images/navtoggle.svg") no-repeat -36px 0 / 72px 72px;
 	text-indent: 100%;
 	white-space: nowrap; 
 }
@@ -58,30 +61,31 @@ body {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #3F3F3F;
-	background-position: 0 -40px;
+	background-color: #68C6B5;
+	background-position: -36px 0;
 }
 
 .nav-btn[data-state="active"] {
-	background-color: #3F3F3F;
-	background-position: -46px -40px;
+	background-color: #68C6B5;
+	background-position: -36px -36px;
 }
 
 .nav {
-	background-color: #3F3F3F;
+	background-color: rgb(104, 198, 181);
     overflow: hidden;
     position: absolute;
     right: .62em;
     width: 10em;
-    top: 48px;
+    top: 50px;
     z-index: 100;
 }
 
 .nav > ul {
 	margin: 0;
-	padding: 0.8em 0;
+	padding:  0;
 	list-style-type: none;
 	font-size: 1.25em;
+    font-weight: 100;
 }
 
 .nav a,
@@ -89,14 +93,14 @@ body {
 .nav a:visited {
 	display: block;
 	padding: 0.5em 10px;
-	color: #e2e2e2;
+	color: white;
 	text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: #9b9b9b;
+	background-color: rgb(38, 165, 170);
 	color: #fff;
 }
 
@@ -113,7 +117,7 @@ body {
 }
 
 .masthead { 
-    height: 50px;
+ 
 }
 
 .banner {
@@ -262,5 +266,11 @@ h1:hover {
 @keyframes fade {
     0% {opacity: 1;}
     100% {opacity: 0;}
+}
+
+@media only screen and (min-width: 25em)
+.unit-s-1-2, .unit-s-1-3, .unit-s-2-3, .unit-s-1-4, .unit-s-3-4 {
+  display: inline-block;
+  visibility: visible;
 }
 
