@@ -269,12 +269,48 @@ h1:hover {
     width: 100%;
 }
 
-.pieces {
-     
+.lightbox {
+    position: fixed;
+    left: 100%;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba (0,0,0,0.5);
+    opacity: 0;
 }
 
+.lightbox [data-state="visible"] {
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+.lightbox-container {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    top: 15px;
+    background-color; #fff;
+}
+
+.lightbox-img {
+    display: block;
+    width: 100%;
+}
+
+.lightbox-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 2em);
+    transform: translate(-50%, -50%);
+}
+
+
+
 .about {
-    xbackground-color: #F27678;
+    background-color: #F27678;
 }
 
 
