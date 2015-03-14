@@ -265,8 +265,9 @@ h1:hover {
     transition: opacity 500ms ease-in-out;
 }
 
-.work-1{
+.li{
     width: 100%;
+    overflow: hidden;
 }
 
 .lightbox {
