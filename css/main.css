@@ -306,8 +306,78 @@ h1:hover {
     top: 50%;
     left: 50%;
     width: calc(100% - 2em);
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+
+.view-1 {
+background-color: #F1B45E;
+}
+.view-first {
+    position: relative;
+	transition: all 0.3s ease-in-out; 
+}
+.view-first .mask-1 { 
+	transform: translateX(-500px);
+	opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out; 
+}
+
+.view-first:hover .mask-1 { 
+	transform: translateX(0px);
+}						
+.view-first:hover img { 
+	transform: translateX(0px);
+}
+
+
+.view-2 {
+background-color: #68C6B5;
+}
+
+.view-second {
+    position: relative;
+	transition: all 0.3s ease-in-out; 
+}
+.view-second .mask-2 { 
+	transform: translateX(900px);
+	opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out; 
+}
+
+.view-second:hover .mask-2 { 
+	transform: translateX(0px);
+}						
+.view-second:hover img { 
+	transform: translateX(0px);
+}
+
+.view-3 {
+background-color: #446287;
+}
+
+.view-third {
+    position: relative;
+	transition: all 0.3s ease-in-out; 
+}
+.view-third .mask-3 { 
+	transform: translateX(-800px);
+	opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out; 
+}
+
+
+.view-third:hover .mask-3 { 
+	transform: translateX(0px);
+}						
+.view-third:hover img { 
+	transform: translateX(0px);
+}
+
 
 
 
