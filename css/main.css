@@ -312,7 +312,8 @@ h1:hover {
 
 
 .view-1 {
-background-color: #F1B45E;
+    background-color: #F1B45E;
+    background-image: url("../images/lightbulb-bg.svg");
 }
 .view-first {
     position: relative;
@@ -334,7 +335,8 @@ background-color: #F1B45E;
 
 
 .view-2 {
-background-color: #68C6B5;
+    background-color: #68C6B5;
+    background-image: url("../images/pencil-bg.svg");
 }
 
 .view-second {
@@ -342,7 +344,7 @@ background-color: #68C6B5;
 	transition: all 0.3s ease-in-out; 
 }
 .view-second .mask-2 { 
-	transform: translateX(900px);
+	transform: translateX(1000px);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -356,7 +358,8 @@ background-color: #68C6B5;
 }
 
 .view-3 {
-background-color: #446287;
+    background-color: #446287;
+    background-image: url("../images/computer-bg.svg");
 }
 
 .view-third {
@@ -364,7 +367,7 @@ background-color: #446287;
 	transition: all 0.3s ease-in-out; 
 }
 .view-third .mask-3 { 
-	transform: translateX(-800px);
+	transform: translateX(-1400px);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
