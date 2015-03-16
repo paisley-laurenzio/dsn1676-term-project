@@ -317,19 +317,23 @@ h1:hover {
 }
 .view-first {
     position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
 .view-first .mask-1 { 
-	transform: translateX(-500px);
+	-webkit-transform: translateX(-500px);
+    transform: translateX(-500px);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
 }
 
 .view-first:hover .mask-1 { 
-	transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+    transform: translateX(0px);
 }						
 .view-first:hover img { 
+	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }
 
@@ -341,20 +345,24 @@ h1:hover {
 
 .view-second {
     position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
 .view-second .mask-2 { 
+	-webkit-transform: translateX(1000px);
 	transform: translateX(1000px);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
 }
 
-.view-second:hover .mask-2 { 
+.view-second:hover .mask-2 {
+    -webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }						
 .view-second:hover img { 
-	transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+    transform: translateX(0px);
 }
 
 .view-3 {
@@ -364,9 +372,11 @@ h1:hover {
 
 .view-third {
     position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
 .view-third .mask-3 { 
+	-webkit-transform: translateX(-1400px);
 	transform: translateX(-1400px);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
@@ -375,9 +385,11 @@ h1:hover {
 
 
 .view-third:hover .mask-3 { 
+	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }						
 .view-third:hover img { 
+	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }
 
