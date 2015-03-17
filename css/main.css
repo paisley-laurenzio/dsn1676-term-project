@@ -279,7 +279,7 @@ h1:hover {
     top: 0;
     bottom: 0;
     background-color: rgba (0,0,0,0.5);
-    opacity: 0;
+    display: none;
 }
 
 .lightbox [data-state="visible"] {
@@ -310,6 +310,8 @@ h1:hover {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+
 
 
 .view-1 {

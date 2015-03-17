@@ -27,5 +27,5 @@ $thumbs.on('click', 'a', function (e){
 });
 
 btnClose.on('click', function (){
-    $lb.attr('data-state','visible');
+    $lb.attr('data-state','hidden');
 });
