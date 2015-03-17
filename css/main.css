@@ -15,6 +15,7 @@ html {
   font: normal 100%/1.5 sans-serif;
   font-family: 'Source Sans Pro', sans-serif; 
   color: #fff;
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -24,7 +25,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    
 }
 
 .logo {
@@ -272,6 +273,21 @@ h1:hover {
     margin: 0 auto;
 }
 
+.tap-target {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tap-target.switch-bg {
+  background-color: url(../images/posterinfinity.jpg);
+}
+
+.tap-target.switch-bg {
+  background-image: url(../images/ironman.jpg);
+}
+
+
+//*
 .lightbox {
     position: fixed;
     left: 100%;
@@ -310,7 +326,7 @@ h1:hover {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
+*//
 
 
 

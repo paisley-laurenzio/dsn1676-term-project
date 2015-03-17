@@ -13,6 +13,15 @@ document.querySelector('.nav-btn').addEventListener('click', function (e) {
   }
 });
 
+
+
+interact('.tap-target')
+  .on('tap', function (event) {
+    event.currentTarget.classList.toggle('switch-bg');
+    event.preventDefault();
+  });
+
+
 var $thumbs = $('.thumbnails');
 var $lbImg = $('.lightbox-img');
 var $lb = $('.lightbox');
