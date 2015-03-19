@@ -303,7 +303,7 @@ h1:hover {
 .lightbox-img {
     display: block;
     width: 100%;
-    max-width: 860px;
+    max-width: 660px;
     margin: 0 auto;
 }
 
@@ -317,18 +317,20 @@ h1:hover {
 }
 
 .btn-close{
-    
     display: block;
     max-height: 3em;
     position: absolute;
     left: 0;
     margin: 0;
     width: 3em;
-/*    float: left;*/
-    
 }
 
-
+.lightbox-heading{
+    display: block;
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+}
 
 .view-1 {
     background-color: #F1B45E;
@@ -340,6 +342,7 @@ h1:hover {
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
+
 .view-first .mask-1 { 
 	-webkit-transform: translateX(-500px);
     transform: translateX(-500px);
@@ -351,12 +354,12 @@ h1:hover {
 .view-first:hover .mask-1 { 
 	-webkit-transform: translateX(0px);
     transform: translateX(0px);
-}						
+}	
+
 .view-first:hover img { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }
-
 
 .view-2 {
     background-color: #68C6B5;
