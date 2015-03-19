@@ -330,6 +330,7 @@ h1:hover {
     width: 100%;
     max-width: 660px;
     margin: 0 auto;
+    font-weight: 200;
 }
 
 .view-1 {
