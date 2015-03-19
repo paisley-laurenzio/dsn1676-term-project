@@ -19,14 +19,14 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    -webkit-overflow-scrolling:touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 .logo {
@@ -121,9 +121,9 @@ body {
 
 @media only screen and (min-width: 25em){
 
-.unit-s-1-2, .unit-s-1-3, .unit-s-2-3, .unit-s-1-4, .unit-s-3-4 {
-  display: inline-block;
-  visibility: visible;
+    .unit-s-1-2, .unit-s-1-3, .unit-s-2-3, .unit-s-1-4, .unit-s-3-4 {
+      display: inline-block;
+      visibility: visible;
 }
 } 
 
@@ -371,6 +371,7 @@ h1:hover {
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
+
 .view-second .mask-2 { 
 	-webkit-transform: translateX(1000px);
 	transform: translateX(1000px);
@@ -382,7 +383,8 @@ h1:hover {
 .view-second:hover .mask-2 {
     -webkit-transform: translateX(0px);
 	transform: translateX(0px);
-}						
+}
+
 .view-second:hover img { 
 	-webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -410,12 +412,12 @@ h1:hover {
 .view-third:hover .mask-3 { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
-}						
+}	
+
 .view-third:hover img { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }
-
 
 .view-4 {
     background-color: #26A5AA;
@@ -444,16 +446,17 @@ h1:hover {
     transform: translateX(0px);
 }
 
-
 .view-5 {
     background-color: #F27678;
     background-image: url("../images/lightbulb-bg.svg");
 }
+
 .view-fifth {
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
+
 .view-fifth .mask-5 { 
 	-webkit-transform: translateX(500px);
     transform: translateX(500px);
@@ -465,7 +468,8 @@ h1:hover {
 .view-fifth:hover .mask-5 { 
 	-webkit-transform: translateX(0px);
     transform: translateX(0px);
-}						
+}	
+
 .view-fifth:hover img { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
@@ -481,6 +485,7 @@ h1:hover {
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
+
 .view-sixth .mask-6 { 
 	-webkit-transform: translateX(1400px);
 	transform: translateX(1400px);
@@ -489,22 +494,18 @@ h1:hover {
 	transition: all 0.4s ease-in-out; 
 }
 
-
 .view-sixth:hover .mask-6 { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
-}						
+}
+
 .view-sixth:hover img { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }
 
-
-
-
-
 .about {
-    background-color: #F27678;
+    xbackground-color: #F27678;
 }
 
 
@@ -512,7 +513,6 @@ h1:hover {
     0% {-webkit-transform: rotate(0deg);}
     100% {-webkit-transform: rotate(360deg);}
 }
-
 
 @keyframes spin {
     0% {transform: rotate(0deg);}
@@ -528,6 +528,3 @@ h1:hover {
     0% {opacity: 1;}
     100% {opacity: 0;}
 }
-
-
-
