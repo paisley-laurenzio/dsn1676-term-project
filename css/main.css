@@ -518,8 +518,15 @@ footer {
 .button-2 {
     width: 50px;
     padding-top: 9px;
-    padding-bottom: 9px;
+    padding-bottom: 9px;    
 }
+
+.socialmedia {
+    width: 50px;
+    padding: 9px;
+    margin-right: 3px;       
+}
+
 
 
 @-webkit-keyframes spin {
