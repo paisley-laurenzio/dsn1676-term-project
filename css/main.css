@@ -270,8 +270,9 @@ h1:hover {
 
 
 .elements {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
+    display: block;
 }
 
 
@@ -345,8 +346,8 @@ h1:hover {
 }
 
 .view-first .mask-1 { 
-	-webkit-transform: translateX(-500px);
-    transform: translateX(-500px);
+	-webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -374,8 +375,8 @@ h1:hover {
 }
 
 .view-second .mask-2 { 
-	-webkit-transform: translateX(1000px);
-	transform: translateX(1000px);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -402,8 +403,8 @@ h1:hover {
 	transition: all 0.3s ease-in-out; 
 }
 .view-third .mask-3 { 
-	-webkit-transform: translateX(-1400px);
-	transform: translateX(-1400px);
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -431,8 +432,8 @@ h1:hover {
 	transition: all 0.3s ease-in-out; 
 }
 .view-fourth .mask-4 { 
-	-webkit-transform: translateX(-1000px);
-	transform: translateX(-1000px);
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -459,8 +460,8 @@ h1:hover {
 }
 
 .view-fifth .mask-5 { 
-	-webkit-transform: translateX(500px);
-    transform: translateX(500px);
+	-webkit-transform: translateX(100%);
+    transform: translateX(100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -488,8 +489,8 @@ h1:hover {
 }
 
 .view-sixth .mask-6 { 
-	-webkit-transform: translateX(1400px);
-	transform: translateX(1400px);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
@@ -506,7 +507,18 @@ h1:hover {
 }
 
 .about {
-    xbackground-color: #F27678;
+    background-color: #F27678;
+}
+
+footer {
+    background-color: #F27678;
+    text-align: center;
+}
+
+.button-2 {
+    width: 50px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 

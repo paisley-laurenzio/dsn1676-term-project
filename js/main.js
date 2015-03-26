@@ -5,6 +5,8 @@ var $lb = $('.lightbox');
 var $btnClose = $('.btn-close');
 var $lbHeading = $('.lightbox-heading');
 
+$('.dropdown-nav').localScroll();
+
 document.querySelector('.nav-btn').addEventListener('click', function (e) {
 
   e.preventDefault();
