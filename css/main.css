@@ -511,12 +511,19 @@ h1:hover {
 }
 
 .me-pic {
+    display: block;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
     width: 200px;
 }
 
+#background {
+    transition: all 500ms ease-in-out;
+}
+
 #me-icon:hover #background {
-    color: #436287; 
-transform: 
+    fill: #436287; 
 }
 
 footer {
