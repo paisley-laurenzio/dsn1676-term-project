@@ -512,7 +512,13 @@ h1:hover {
 
 .about-me-title {
     padding-left:  1em;
-    font-size: 3em;
+    font-size: 50px;;
+}
+
+.about-me-content {
+    padding-left: 3em; 
+    padding-right: 3em;
+    font-weight: 100;
 }
 
 .me-pic {
