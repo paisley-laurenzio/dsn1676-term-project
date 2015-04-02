@@ -510,9 +510,14 @@ h1:hover {
     background-color: #F27678;
 }
 
+.about-me-title {
+    padding-left:  1em;
+    font-size: 3em;
+}
+
 .me-pic {
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
     padding-top: 1em;
     padding-bottom: 1em;
     width: 200px;
