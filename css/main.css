@@ -523,9 +523,10 @@ h1:hover {
 
 .me-pic {
     display: block;
-    margin: auto auto;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 10%;
+    
     width: 200px;
 }
 
