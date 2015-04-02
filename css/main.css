@@ -510,6 +510,15 @@ h1:hover {
     background-color: #F27678;
 }
 
+.me-pic {
+    width: 200px;
+}
+
+#me-icon:hover #background {
+    color: #436287; 
+transform: 
+}
+
 footer {
     background-color: #F27678;
     text-align: center;
