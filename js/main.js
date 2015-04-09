@@ -4,10 +4,10 @@ var $lbImg = $('.lightbox-img');
 var $lb = $('.lightbox');
 var $btnClose = $('.btn-close');
 var $lbHeading = $('.lightbox-heading');
-var $backGround = $('.me');
+var $me = $('.me');
 
-$backGround.waypoint( function () {
-    $backGround.toggleClass('js-active');
+$me.waypoint( function () {
+    $me.toggleClass('js-active');
 }, { offset: '60%' });
 
 $('.dropdown-nav').localScroll();
