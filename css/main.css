@@ -41,6 +41,7 @@ body {
     background-color: #68C6B5;
     color: #fff;
     padding: 0.75em 0.75em;
+    text-decoration: none;
 }
 
 .skip-links:focus {
