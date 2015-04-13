@@ -29,6 +29,21 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -4em;
+}
+
+.skip-links:focus {
+    top: 0;
+}
+
 .logo {
     width: 10em;
     max-height: 5em;
