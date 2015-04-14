@@ -252,7 +252,7 @@ img.pic-3 {
 }
 
 h1, h2 {
-    font-weight: 200;
+    font-weight: 100;
     margin: 0;
     padding: 0;
     transition: color 500ms ease-in-out;
@@ -266,12 +266,6 @@ h1, h2 {
 
 .name:hover{
     height: 11em;
-}
-
-
-h1:hover {
-    color: #68C5B4;
-    font-size: 2em;
 }
 
 .name:hover .button {
