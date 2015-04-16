@@ -29,11 +29,6 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-a:focus {
-    outline: 2px solid white;
-    
-}
-
 .skip-links {
     margin: 0;
     padding: 0;
@@ -52,6 +47,7 @@ a:focus {
 
 .skip-links a:focus {
     top: 0;
+    outline: 2px solid white;
 }
 
 .logo {
@@ -353,6 +349,11 @@ h1, h2 {
     font-weight: 200;
 }
 
+.masked-img {
+    overflow: hidden;
+    display: block;
+}
+
 .view-1 {
     background-color: #F1B45E;
     background-image: url("../images/lightbulb-bg.svg");
@@ -364,7 +365,7 @@ h1, h2 {
 	transition: all 0.3s ease-in-out; 
 }
 
-.view-first .mask-1 { 
+.view-first img { 
 	-webkit-transform: translateX(-100%);
     transform: translateX(-100%);
 	opacity: 1;
@@ -372,15 +373,11 @@ h1, h2 {
 	transition: all 0.4s ease-in-out; 
 }
 
-.view-first:hover .mask-1 { 
+.view-first a:hover img,
+.view-first a:focus img { 
 	-webkit-transform: translateX(0px);
     transform: translateX(0px);
 }	
-
-.view-first:hover img { 
-	-webkit-transform: translateX(0px);
-	transform: translateX(0px);
-}
 
 .view-2 {
     background-color: #68C6B5;
@@ -392,24 +389,20 @@ h1, h2 {
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
-
-.view-second .mask-2 { 
+.view-second img { 
 	-webkit-transform: translateX(100%);
-	transform: translateX(100%);
+    transform: translateX(100%);
 	opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out; 
 }
 
-.view-second:hover .mask-2 {
-    -webkit-transform: translateX(0px);
-	transform: translateX(0px);
-}
-
-.view-second:hover img { 
+.view-second a:hover img,
+.view-second a:focus img { 
 	-webkit-transform: translateX(0px);
     transform: translateX(0px);
-}
+}	
+
 
 .view-3 {
     background-color: #446287;
@@ -421,7 +414,8 @@ h1, h2 {
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
-.view-third .mask-3 { 
+
+.view-third img { 
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
 	opacity: 1;
@@ -429,16 +423,11 @@ h1, h2 {
 	transition: all 0.4s ease-in-out; 
 }
 
-
-.view-third:hover .mask-3 { 
+.view-third a:hover img, 
+.view-third a:focus img { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }	
-
-.view-third:hover img { 
-	-webkit-transform: translateX(0px);
-	transform: translateX(0px);
-}
 
 .view-4 {
     background-color: #26A5AA;
@@ -450,7 +439,7 @@ h1, h2 {
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
-.view-fourth .mask-4 { 
+.view-fourth img { 
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
 	opacity: 1;
@@ -458,14 +447,11 @@ h1, h2 {
 	transition: all 0.4s ease-in-out; 
 }
 
-.view-fourth:hover .mask-4 {
+.view-fourth a:hover img,
+.view-fourth a:focus img {
     -webkit-transform: translateX(0px);
 	transform: translateX(0px);
-}						
-.view-fourth:hover img { 
-	-webkit-transform: translateX(0px);
-    transform: translateX(0px);
-}
+}	
 
 .view-5 {
     background-color: #F27678;
@@ -478,7 +464,7 @@ h1, h2 {
 	transition: all 0.3s ease-in-out; 
 }
 
-.view-fifth .mask-5 { 
+.view-fifth img { 
 	-webkit-transform: translateX(100%);
     transform: translateX(100%);
 	opacity: 1;
@@ -486,15 +472,11 @@ h1, h2 {
 	transition: all 0.4s ease-in-out; 
 }
 
-.view-fifth:hover .mask-5 { 
+.view-fifth a:hover img, 
+.view-fifth a:focus img { 
 	-webkit-transform: translateX(0px);
     transform: translateX(0px);
 }	
-
-.view-fifth:hover img { 
-	-webkit-transform: translateX(0px);
-	transform: translateX(0px);
-}
 
 .view-6 {
     background-color: #252B3F;
@@ -507,7 +489,7 @@ h1, h2 {
 	transition: all 0.3s ease-in-out; 
 }
 
-.view-sixth .mask-6 { 
+.view-sixth img { 
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 	opacity: 1;
@@ -515,12 +497,8 @@ h1, h2 {
 	transition: all 0.4s ease-in-out; 
 }
 
-.view-sixth:hover .mask-6 { 
-	-webkit-transform: translateX(0px);
-	transform: translateX(0px);
-}
-
-.view-sixth:hover img { 
+.view-sixth a:hover img, 
+.view-sixth a:focus img { 
 	-webkit-transform: translateX(0px);
 	transform: translateX(0px);
 }
