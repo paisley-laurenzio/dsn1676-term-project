@@ -29,6 +29,11 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+a:focus {
+    outline: 2px solid white;
+    
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -40,11 +45,12 @@ body {
     top: -4em;
     background-color: #68C6B5;
     color: #fff;
+    font-weight: 100;
     padding: 0.75em 0.75em;
     text-decoration: none;
 }
 
-.skip-links:focus {
+.skip-links a:focus {
     top: 0;
 }
 
