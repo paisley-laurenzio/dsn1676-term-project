@@ -6,7 +6,6 @@
 
 html {
   box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -313,7 +312,6 @@ h1, h2 {
     right: 15px;
     bottom: 15px;
     top: 15px;
-    background-color; #fff;
 }
 
 .lightbox-img {
